@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportDataSetModel" targetNamespace="http://tempuri.org/ReportDataSetModel.xsd" xmlns:mstns="http://tempuri.org/ReportDataSetModel.xsd" xmlns="http://tempuri.org/ReportDataSetModel.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportDataSetModel" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ReportDataSetModel" msprop:Generator_UserDSName="ReportDataSetModel">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GMBInformation" msprop:Generator_TableClassName="GMBInformationDataTable" msprop:Generator_TableVarName="tableGMBInformation" msprop:Generator_TablePropName="GMBInformation" msprop:Generator_RowDeletingName="GMBInformationRowDeleting" msprop:Generator_RowChangingName="GMBInformationRowChanging" msprop:Generator_RowEvHandlerName="GMBInformationRowChangeEventHandler" msprop:Generator_RowDeletedName="GMBInformationRowDeleted" msprop:Generator_UserTableName="GMBInformation" msprop:Generator_RowChangedName="GMBInformationRowChanged" msprop:Generator_RowEvArgName="GMBInformationRowChangeEvent" msprop:Generator_RowClassName="GMBInformationRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Storecode" msprop:Generator_ColumnVarNameInTable="columnStorecode" msprop:Generator_ColumnPropNameInRow="Storecode" msprop:Generator_ColumnPropNameInTable="StorecodeColumn" msprop:Generator_UserColumnName="Storecode" type="xs:string" minOccurs="0" />
+              <xs:element name="BusinessName" msprop:Generator_ColumnVarNameInTable="columnBusinessName" msprop:Generator_ColumnPropNameInRow="BusinessName" msprop:Generator_ColumnPropNameInTable="BusinessNameColumn" msprop:Generator_UserColumnName="BusinessName" type="xs:string" minOccurs="0" />
+              <xs:element name="Address" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnPropNameInTable="AddressColumn" msprop:Generator_UserColumnName="Address" type="xs:string" minOccurs="0" />
+              <xs:element name="Labels" msprop:Generator_ColumnVarNameInTable="columnLabels" msprop:Generator_ColumnPropNameInRow="Labels" msprop:Generator_ColumnPropNameInTable="LabelsColumn" msprop:Generator_UserColumnName="Labels" type="xs:string" minOccurs="0" />
+              <xs:element name="OverallRating" msprop:Generator_ColumnVarNameInTable="columnOverallRating" msprop:Generator_ColumnPropNameInRow="OverallRating" msprop:Generator_ColumnPropNameInTable="OverallRatingColumn" msprop:Generator_UserColumnName="OverallRating" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalSearches" msprop:Generator_ColumnVarNameInTable="columnTotalSearches" msprop:Generator_ColumnPropNameInRow="TotalSearches" msprop:Generator_ColumnPropNameInTable="TotalSearchesColumn" msprop:Generator_UserColumnName="TotalSearches" type="xs:string" minOccurs="0" />
+              <xs:element name="DirectSearches" msprop:Generator_ColumnVarNameInTable="columnDirectSearches" msprop:Generator_ColumnPropNameInRow="DirectSearches" msprop:Generator_ColumnPropNameInTable="DirectSearchesColumn" msprop:Generator_UserColumnName="DirectSearches" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalViews" msprop:Generator_ColumnVarNameInTable="columnTotalViews" msprop:Generator_ColumnPropNameInRow="TotalViews" msprop:Generator_ColumnPropNameInTable="TotalViewsColumn" msprop:Generator_UserColumnName="TotalViews" type="xs:string" minOccurs="0" />
+              <xs:element name="SearchViews" msprop:Generator_ColumnVarNameInTable="columnSearchViews" msprop:Generator_ColumnPropNameInRow="SearchViews" msprop:Generator_ColumnPropNameInTable="SearchViewsColumn" msprop:Generator_UserColumnName="SearchViews" type="xs:string" minOccurs="0" />
+              <xs:element name="MapsViews" msprop:Generator_ColumnVarNameInTable="columnMapsViews" msprop:Generator_ColumnPropNameInRow="MapsViews" msprop:Generator_ColumnPropNameInTable="MapsViewsColumn" msprop:Generator_UserColumnName="MapsViews" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalActions" msprop:Generator_ColumnVarNameInTable="columnTotalActions" msprop:Generator_ColumnPropNameInRow="TotalActions" msprop:Generator_ColumnPropNameInTable="TotalActionsColumn" msprop:Generator_UserColumnName="TotalActions" type="xs:string" minOccurs="0" />
+              <xs:element name="WebsiteActions" msprop:Generator_ColumnVarNameInTable="columnWebsiteActions" msprop:Generator_ColumnPropNameInRow="WebsiteActions" msprop:Generator_ColumnPropNameInTable="WebsiteActionsColumn" msprop:Generator_UserColumnName="WebsiteActions" type="xs:string" minOccurs="0" />
+              <xs:element name="DirectionsActions" msprop:Generator_ColumnVarNameInTable="columnDirectionsActions" msprop:Generator_ColumnPropNameInRow="DirectionsActions" msprop:Generator_ColumnPropNameInTable="DirectionsActionsColumn" msprop:Generator_UserColumnName="DirectionsActions" type="xs:string" minOccurs="0" />
+              <xs:element name="PhoneCallActions" msprop:Generator_ColumnVarNameInTable="columnPhoneCallActions" msprop:Generator_ColumnPropNameInRow="PhoneCallActions" msprop:Generator_ColumnPropNameInTable="PhoneCallActionsColumn" msprop:Generator_UserColumnName="PhoneCallActions" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
